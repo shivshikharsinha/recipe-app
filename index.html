@@ -16,9 +16,10 @@
             <h2 class="title">Find Meals for your Ingredients</h2>
             <blockquote>Real food is not just a meal; it's a harmony of essential ingredients, each one telling a story
                 of flavor, freshness, and authenticity.
-            <cite> - Chat GPT 😊</cite></blockquote>
+                <cite> - Chat GPT 😊</cite>
+            </blockquote>
             <div class="meal-search-box">
-                <input type="text" placeholder="Enter ingredient(s)" class = "search-content" id="search-input"/>
+                <input type="text" placeholder="Enter ingredient(s)" class="search-control" id="search-input" />
                 <button type="submit" class="search-btn btn" id="search-btn">
                     <i class="fas fa-search"></i>
                 </button>
@@ -26,6 +27,43 @@
         </div>
         <div class="meal-result">
             <h2 class="title"> Your Search Results: </h2>
+            <div id="meal">
+                <!------meal item start---->
+                <div class="meal-item">
+                    <div class="meal-img">
+                        <img src="food.jpg" alt="food" srcset="">
+                    </div>
+                    <div class="meal-name">
+                        <h3>Finger Fries</h3>
+                        <a href="#" class="recipe-btn">Get Recipe</a>
+                    </div>
+                </div>
+                <!------meal item end---->
+            </div>
+        </div>
+        <div class="meal-details">
+            <!-- recipe close btn -->
+            <button type=" button" class="btn recipe-close-btn" id="recipe-close-btn"> <i
+                    class="fas fa-times"></i></button>
+            <!--meal content-->
+            <div class="meal-details-content">
+                <h2 class="recipe-title">Meals Name Here</h2>
+                <p class="recipe-category">Category Name</p>
+                <div class="recipe-instruct">
+                    <h3>Instructions:</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam tenetur dolor accusantium
+                        pariatur rem cupiditate suscipit natus corrupti maiores neque aspernatur officiis, labore sint
+                        consequuntur, incidunt nam reiciendis sequi animi.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat odio nobis necessitatibus error
+                        esse deleniti optio dolor quae, libero aut?</p>
+                </div>
+                <div class="recipe-meal-img">
+                    <img src="food.jpg" alt="">
+                </div>
+                <div class="recipe-link">
+                    <a href="#" target="_blank"> Watch Video Tutorial</a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
