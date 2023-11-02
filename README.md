@@ -25,8 +25,10 @@ Welcome to the Recipe Finder Web App! This project allows users to find deliciou
 
 ## Screenshots
 
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
+![image](https://github.com/shivshikharsinha/recipe-app/assets/64603451/3367e176-4ca4-4bd4-a32c-5e6d8786e608)
+
+![image](https://github.com/shivshikharsinha/recipe-app/assets/64603451/311e87fa-0d62-447f-acaa-8ef3517690e8)
+
 
 ## Contributions
 
